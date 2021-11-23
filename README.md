@@ -30,12 +30,6 @@ A sentence should not be longer than **25 words**.
 ## Citations
 Use [Zotero](https://www.zotero.org/) for your literature management. Every group managed by an FZI employee has unlimited storage for your files.
 
-**Details:**
-- Use `\"{o}` instead of ö etc.
-- Use `\'{e}` instead of é etc.
-- Use the `lastname1, firstname1 and lastname2, firstname2` format for the author list
-- Put the title in `{{title}}`, this preserves upper and lower case etc.
-
 **Examples for paper types:**
 #### arXiv (cite if arXiv is the only source of a paper)
 ```
