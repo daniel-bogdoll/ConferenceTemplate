@@ -34,7 +34,7 @@ Use [Zotero](https://www.zotero.org/) for your literature management. Every grou
 - Put the title in `{{title}}`, this preserves upper and lower case etc.
 
 **Examples for paper types:**
-#### arXiv
+#### arXiv (cite if arXiv is the only source of an article)
 ```
 @article{Bogdoll_Taxonomy_2021_arXiv,
     author    = {Bogdoll, Daniel and Orf, Stefan and T\"{o}ttel, Lars and Z\"{o}llner, J. Marius},
