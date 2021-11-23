@@ -7,7 +7,7 @@ This repository contains tips regarding scientific writing and a LaTeX template 
 ### Tools
 Use [LanguageTool](https://languagetool.org/de) (does integrate with Overleaf) or [Grammerly](https://www.grammarly.com/) to check your writing style. For LanguageTool, activate the "Acribic Mode"
 
-### Style
+### Writing Style
 
 A sentence should not be longer than **25 words**.
 
@@ -24,7 +24,10 @@ A sentence should not be longer than **25 words**.
 | ----------- | ----------- | ----------- | 
 | Header      | Title       | Title       |
 
-### Citations
+## Paper Style
+
+
+## Citations
 Use [Zotero](https://www.zotero.org/) for your literature management. Every group managed by an FZI employee has unlimited storage for your files.
 
 **Details:**
@@ -74,5 +77,3 @@ Use [Zotero](https://www.zotero.org/) for your literature management. Every grou
     year      = {2020}
 }
 ```
-
-## Paper Style
