@@ -11,9 +11,12 @@ Use [LanguageTool](https://languagetool.org/de) (does integrate with Overleaf) o
 
 A sentence should not be longer than **25 words**.
 
-| Writing Style      | Negative Example | Positive Example
-| ----------- | ----------- | ----------- | 
-| Header      | Title       | Title       |
+| Writing Style      | Negative Example | Positive Example | Explanation
+| ----------- | ----------- | ----------- | ----------- | 
+| Active Voice      | Title       | Title       | Title       |
+| Oxford Comma      | Title       | Title       | Title       |
+| Hyphen      | Title       | Title       | Title       |
+
 
 ### Tenses
 
