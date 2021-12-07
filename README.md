@@ -29,9 +29,9 @@ A sentence should not be longer than **25 words**.
 
 ### Tenses
 
-Present Tense: What is known
-Past Tense: What you did
-Future Tense: What comes after the paper
+- Present Tense: What is known
+- Past Tense: What you did
+- Future Tense: What comes after the paper
 
 | Section      | Tense | Notes
 | ----------- | ----------- | ----------- | 
