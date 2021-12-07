@@ -1,15 +1,19 @@
 # Scientific Writing
 
-This repository contains tips regarding scientific writing and a LaTeX template for conferences. It is synced to an [Overleaf](https://www.overleaf.com) project.
+This repository contains tips regarding scientific writing and a LaTeX template for conferences.
+
+## Tools
+
+- [Overleaf](https://www.overleaf.com) to write your paper in LaTeX
+- [LanguageTool](https://languagetool.org/de) (does integrate with Overleaf) or [Grammerly](https://www.grammarly.com/) to check your writing style. In LanguageTool, activate  "Acribic Mode"
+- [Zotero](https://www.zotero.org/) for your literature management.
+
 
 ## Paper Style
 
-> **Get the gestalt right.** I remember being impressed with Fei-Fei (my adviser) once during a reviewing session. I had a stack of 4 papers I had reviewed over the last several hours and she picked them up, **flipped through each one for 10 seconds**, and said one of them was good and the other three bad. Indeed, I was accepting the one and rejecting the other three, but something that took me several hours took her seconds. - [Andrej Karpathy, Head of AI at Tesla](http://karpathy.github.io/2016/09/07/phd/)
+"**Get the gestalt right.** I remember being impressed with Fei-Fei (my adviser) once during a reviewing session. I had a stack of 4 papers I had reviewed over the last several hours and she picked them up, **flipped through each one for 10 seconds**, and said one of them was good and the other three bad. Indeed, I was accepting the one and rejecting the other three, but something that took me several hours took her seconds." - [Andrej Karpathy, Head of AI at Tesla](http://karpathy.github.io/2016/09/07/phd/)
 
 ## English for Germans
-
-### Tools
-Use [LanguageTool](https://languagetool.org/de) (does integrate with Overleaf) or [Grammerly](https://www.grammarly.com/) to check your writing style. For LanguageTool, activate the "Acribic Mode"
 
 ### Writing Style
 
@@ -39,7 +43,6 @@ Future Tense: What comes after the paper
 | Conclusion      | Present or Future       | Future for Outlook       |
 
 ## Citations
-Use [Zotero](https://www.zotero.org/) for your literature management.
 
 **Examples for paper types:**
 #### arXiv (cite if arXiv is the only source of a paper)
