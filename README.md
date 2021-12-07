@@ -38,7 +38,7 @@ Future Tense: What comes after the paper
 
 
 ## Citations
-Use [Zotero](https://www.zotero.org/) for your literature management. Every group managed by an FZI employee has unlimited storage for your files.
+Use [Zotero](https://www.zotero.org/) for your literature management.
 
 **Examples for paper types:**
 #### arXiv (cite if arXiv is the only source of a paper)
