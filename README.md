@@ -1,12 +1,12 @@
 # Scientific Writing
 
-This repository contains tips regarding scientific writing and a LaTeX template for conferences.
+This repository contains tips regarding scientific writing and a LaTeX template for conferences. It is synced with an Overleaf project.
 
 ## Tools
 
 - [Overleaf](https://www.overleaf.com) to write your paper in LaTeX
 - [LanguageTool](https://languagetool.org/de) (does integrate with Overleaf) or [Grammerly](https://www.grammarly.com/) to check your writing style. In LanguageTool, activate  "Acribic Mode"
-- [Zotero](https://www.zotero.org/) for your literature management.
+- [Zotero](https://www.zotero.org/) for your literature management. Can be synced with Overleaf.
 
 
 ## Paper Style
