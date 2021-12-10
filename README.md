@@ -87,3 +87,6 @@ Citations need to be consistent, a bad example would be to include the release m
     year      = {2020}
 }
 ```
+## More
+ - [Free Google course on technical writing](https://developers.google.com/tech-writing/overview)
+
