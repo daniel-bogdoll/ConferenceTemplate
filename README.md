@@ -44,6 +44,8 @@ A sentence should not be longer than **25 words**.
 
 ## Citations
 
+Citations need to be consistent, a bad example would be to include the release month in some papers but not in others. If there is a version of an arXiv paper that has been published at a conference, use this version.
+
 **Examples for paper types:**
 #### arXiv (cite if arXiv is the only source of a paper)
 ```
