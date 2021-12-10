@@ -23,7 +23,7 @@ A sentence should not be longer than **25 words**.
 | ----------- | ----------- | ----------- | ----------- | 
 | Active Voice      | Oxygen was consumed at a higher rate       | The mouse consumed oxygen at a higher rate       |   Makes the text much easier to comprehend     |
 | Oxford Comma      | We monitored temperature, pressure and volume.       | We monitored temperature, pressure, and volume.       | The comma ensures that the last two items are not beeing understood as one       |
-| Hyphen      | Please bring the report up-to-date       | Please deliver an up-to-date report       | Use hypens to describe nouns       |
+| Hyphen      | Please bring the report up-to-date       | Please deliver an up-to-date report       | Use hyphens to describe nouns       |
 | Verbs instead of abstract nouns | Examination of the metal components was carried out... | We examined the metal components... | Text is easier to read out aloud (max 1 breath per sentence) | Parallel Structures | Our investigation has two goals: ° to discover root causes of production problems, ° eliminating uncertainties in design processes | Our investigation has two goals: ° to discover root causes of production problems, ° to eliminate uncertainties in design processes | Structured lists
 
 
@@ -37,7 +37,7 @@ A sentence should not be longer than **25 words**.
 | ----------- | ----------- | ----------- | 
 | Abstract | Past or Present | Present for general statements and facts
 | Introduction      | Present       | Research question: Past, Present or Future       |
-| State of the Art      | Past or Present       |        |
+| State of the Art      | Past or Present       | If something is always true, then it should be written in present tense       |
 | Method      | Past       |        |
 | Evaluation      | Past or Present       | Specific results in Past, more general ones in Present       |
 | Conclusion      | Present or Future       | Future for Outlook       |
