@@ -80,7 +80,7 @@ Citations need to be consistent, a bad example would be to include the release m
 
 #### PhD Thesis
 ```
-@phdthesis{Kuhnt_Holistic_2020_PhD,
+@phdThesis{Kuhnt_Holistic_2020_PhD,
     author    = {Kuhnt, Florian},
     title     = {{Holistic Temporal Situation Interpretation for Traffic Participant Prediction}},
     school    = {Karlsruhe Institute of Technology (KIT)},
