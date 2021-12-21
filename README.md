@@ -13,41 +13,16 @@ This repository contains tips regarding scientific writing and a LaTeX template 
 
 "**Get the gestalt right.** I remember being impressed with Fei-Fei (my adviser) once during a reviewing session. I had a stack of 4 papers I had reviewed over the last several hours and she picked them up, **flipped through each one for 10 seconds**, and said one of them was good and the other three bad. Indeed, I was accepting the one and rejecting the other three, but something that took me several hours took her seconds." - [Andrej Karpathy, Head of AI at Tesla](http://karpathy.github.io/2016/09/07/phd/)
 
-## English for Germans
+### Citations
 
-### Writing Style
+- Use `\"{o}` instead of ö, `\'{e}` instead of é etc. to avoid issues
+- Use the `lastname1, firstname1 and lastname2, firstname2` format for the author list
+- Put the title in `{{title}}`, this preserves the desired upper and lower case
+- Use citation styles **consistently**
+- Cite arXiv only if it is the only version of a paper (but keep in mind there is a [trend towards arXiv citations](https://github.com/danijar/dreamerv2))
 
-A sentence should not be longer than **25 words**.
-
-| Writing Style      | Negative Example | Positive Example | Explanation
-| ----------- | ----------- | ----------- | ----------- | 
-| Active Voice      | An error has occurred with your account, but every attempt was made to remedy it.       | We made an error with your account, but we have made every attempt to remedy it.       |   Makes the text much easier to comprehend     |
-| Oxford Comma      | We monitored temperature, pressure and volume.       | We monitored temperature, pressure, and volume.       | The comma ensures that the last two items are not beeing understood as one       |
-| Hyphen      | Please bring the report up-to-date.       | Please deliver an up-to-date report.       | Use hyphens to describe nouns       |
-| Verbs instead of abstract nouns | Examination of the metal components was carried out... | We examined the metal components... | Text is easier to read out aloud (max 1 breath per sentence) | Parallel Structures | Our investigation has two goals: ° to discover root causes of production problems, ° eliminating uncertainties in design processes | Our investigation has two goals: ° to discover root causes of production problems, ° to eliminate uncertainties in design processes | Structured lists
-
-
-### Tenses
-
-- Present Tense: What is known
-- Past Tense: What you did
-- Future Tense: What comes after the paper
-
-| Section      | Tense | Notes
-| ----------- | ----------- | ----------- | 
-| Abstract | Past or Present | Present for general statements and facts
-| Introduction      | Present       | Research question: Past, Present or Future       |
-| State of the Art      | Past or Present       | If something is always true, then it should be written in present tense       |
-| Method      | Past       |        |
-| Evaluation      | Past or Present       | Specific results in Past, more general ones in Present       |
-| Conclusion      | Present or Future       | Future for Outlook       |
-
-## Citations
-
-Citations need to be consistent, a bad example would be to include the release month in some papers but not in others.
-
-**Examples for paper types:**
-#### arXiv (cite if arXiv is the only source of a paper)
+**Citation types:**
+#### arXiv
 ```
 @article{Bogdoll_Taxonomy_2021_arXiv,
     author    = {Bogdoll, Daniel and Orf, Stefan and T\"{o}ttel, Lars and Z\"{o}llner, J. Marius},
@@ -87,6 +62,33 @@ Citations need to be consistent, a bad example would be to include the release m
     year      = {2020}
 }
 ```
-## More
- - [Free Google course on technical writing](https://developers.google.com/tech-writing/overview)
+
+## English for Germans
+
+### Writing Style
+
+A sentence should not be longer than **25 words**.
+
+| Writing Style      | Negative Example | Positive Example | Explanation
+| ----------- | ----------- | ----------- | ----------- | 
+| Active Voice      | An error has occurred with your account, but every attempt was made to remedy it.       | We made an error with your account, but we have made every attempt to remedy it.       |   Makes the text much easier to comprehend     |
+| Oxford Comma      | We monitored temperature, pressure and volume.       | We monitored temperature, pressure, and volume.       | The comma ensures that the last two items are not beeing understood as one       |
+| Hyphen      | Please bring the report up-to-date.       | Please deliver an up-to-date report.       | Use hyphens to describe nouns       |
+| Verbs instead of abstract nouns | Examination of the metal components was carried out... | We examined the metal components... | Text is easier to read out aloud (max 1 breath per sentence) | Parallel Structures | Our investigation has two goals: ° to discover root causes of production problems, ° eliminating uncertainties in design processes | Our investigation has two goals: ° to discover root causes of production problems, ° to eliminate uncertainties in design processes | Structured lists
+
+
+### Tenses
+
+- Present Tense: What is known
+- Past Tense: What you did
+- Future Tense: What comes after the paper
+
+| Section      | Tense | Notes
+| ----------- | ----------- | ----------- | 
+| Abstract | Past or Present | Present for general statements and facts
+| Introduction      | Present       | Research question: Past, Present or Future       |
+| State of the Art      | Past or Present       | If something is always true, then it should be written in present tense       |
+| Method      | Past       |        |
+| Evaluation      | Past or Present       | Specific results in Past, more general ones in Present       |
+| Conclusion      | Present or Future       | Future for Outlook       |
 
