@@ -43,7 +43,7 @@ Use color palettes that are suited for colorblind people, such as the ones propo
 @InProceedings{Weber_Automated_2020_IV,
     author    = {Weber, Michael and F\"{u}rst, Michael and Z\"{o}llner, J. Marius},
     title     = {{Automated Focal Loss for Image based Object Detection}},
-    booktitle = {2020 IEEE Intelligent Vehicles Symposium (IV)},
+    booktitle = {IEEE Intelligent Vehicles Symposium (IV)},
     year      = {2020}
 }
 ```
