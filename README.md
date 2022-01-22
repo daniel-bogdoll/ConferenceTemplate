@@ -24,6 +24,8 @@ Use color palettes that are suited for colorblind people, such as the ones propo
 - Put the title in `{{title}}`, this preserves the desired upper and lower case
 - Use citation styles **consistently**
 - Cite arXiv only if it is the only version of a paper (but keep in mind there is a [trend towards arXiv citations](https://github.com/danijar/dreamerv2))
+- Add non-breaking spaces, so references don't slide to the next line: `[...] in~\cite{} [...]` instead of `[...] in \cite{} [...]`  
+
 
 **Citation types:**
 #### arXiv
@@ -73,12 +75,12 @@ Use color palettes that are suited for colorblind people, such as the ones propo
 
 A sentence should not be longer than **25 words**.
 
-| Writing Style      | Negative Example | Positive Example | Explanation
+| Writing Style      | Negative Example | **Positive Example** | Explanation
 | ----------- | ----------- | ----------- | ----------- | 
-| Active Voice      | An error has occurred with your account, but every attempt was made to remedy it.       | We made an error with your account, but we have made every attempt to remedy it.       |   Makes the text much easier to comprehend     |
-| Oxford Comma      | We monitored temperature, pressure and volume.       | We monitored temperature, pressure, and volume.       | The comma ensures that the last two items are not beeing understood as one       |
-| Hyphen      | Please bring the report up-to-date.       | Please deliver an up-to-date report.       | Use hyphens to describe nouns       |
-| Verbs instead of abstract nouns | Examination of the metal components was carried out... | We examined the metal components... | Text is easier to read out aloud (max 1 breath per sentence) | Parallel Structures | Our investigation has two goals: ° to discover root causes of production problems, ° eliminating uncertainties in design processes | Our investigation has two goals: ° to discover root causes of production problems, ° to eliminate uncertainties in design processes | Structured lists
+| Active Voice      | An error has occurred with your account, but every attempt was made to remedy it.       | **We made an error with your account, but we have made every attempt to remedy it.**       |   Makes the text much easier to comprehend     |
+| Oxford Comma      | We monitored temperature, pressure and volume.       | **We monitored temperature, pressure, and volume.**       | The comma ensures that the last two items are not beeing understood as one       |
+| Hyphen      | Please bring the report up-to-date.       | **Please deliver an up-to-date report.**       | Use hyphens to describe nouns       |
+| Verbs instead of abstract nouns | Examination of the metal components was carried out... | **We examined the metal components...** | Text is easier to read out aloud (max 1 breath per sentence) | Parallel Structures | Our investigation has two goals: ° to discover root causes of production problems, ° eliminating uncertainties in design processes | **Our investigation has two goals: ° to discover root causes of production problems, ° to eliminate uncertainties in design processes** | Structured lists
 
 
 ### Tenses
