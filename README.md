@@ -1,6 +1,6 @@
 # Scientific Writing
 
-This repository contains tips regarding scientific writing and a LaTeX template for conferences. It is synced with an Overleaf project. If you publish associated open-source code, provide the BibTeX  in the [README.md](https://github.com/danijar/dreamerv2), provide a [CITATION.ccf](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) file and link the official code to the [arXiv Code & Data](https://blog.arxiv.org/2020/10/08/new-arxivlabs-feature-provides-instant-access-to-code/) tab
+This repository contains tips regarding scientific writing and a LaTeX template for conferences. It is synced with an Overleaf project. If you publish associated open-source code, provide the BibTeX  in the [README.md](https://github.com/danijar/dreamerv2), provide a [CITATION.ccf](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) file and link the official code to the [arXiv Code & Data](https://blog.arxiv.org/2020/10/08/new-arxivlabs-feature-provides-instant-access-to-code/) tab.
 
 ## Tools
 
