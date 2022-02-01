@@ -5,8 +5,8 @@ This repository contains tips regarding scientific writing and a LaTeX template 
 ## Tools
 
 - [Overleaf](https://www.overleaf.com) to write your paper in LaTeX
-- [LanguageTool](https://languagetool.org/de) (does integrate with Overleaf) or [Grammerly](https://www.grammarly.com/) to check your writing style. In LanguageTool, activate  "Acribic Mode"
-- [Zotero](https://www.zotero.org/) for your literature management. Can be synced with Overleaf.
+- [LanguageTool](https://languagetool.org/de), which does integrate with Overleaf, to check your writing style. Activate  "Acribic Mode"
+- [Zotero](https://www.zotero.org/) for your literature management. Can be synced with Overleaf
 
 
 ## Paper Style
@@ -25,6 +25,7 @@ Use color palettes that are suited for colorblind people, such as the ones propo
 - Use citation styles **consistently**
 - Cite arXiv only if it is the only version of a paper (but keep in mind there is a [trend towards arXiv citations](https://github.com/danijar/dreamerv2))
 - Add non-breaking spaces, so references don't slide to the next line: `[...] in~\cite{} [...]` instead of `[...] in \cite{} [...]` 
+- Use [archive.org](https://archive.org/web/) for [archived versions of websites](https://help.archive.org/hc/en-us/articles/360001513491-Save-Pages-in-the-Wayback-Machine) from the date you accessed them
 
 **Citation types:**
 #### arXiv
@@ -64,6 +65,17 @@ Use color palettes that are suited for colorblind people, such as the ones propo
     title     = {{Holistic Temporal Situation Interpretation for Traffic Participant Prediction}},
     school    = {Karlsruhe Institute of Technology (KIT)},
     year      = {2020}
+}
+```
+
+#### Website
+```
+@misc{Asam_Openscenario_2020_Web,
+    author    = {{ASAM}},
+    title     = {{ASAM OpenSCENARIO®}},
+    howpublished = {\url{https://web.archive.org/web/20220104123527/https://www.asam.net/standards/detail/openscenario/}},
+    year      = {2021},
+    note      = {Accessed: 2022-01-01}
 }
 ```
 
