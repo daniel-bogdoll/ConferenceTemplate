@@ -1,45 +1,95 @@
 \documentclass[conference]{IEEEtran}
-\pdfoutput=1    % For LaTeX issues
+\pdfoutput=1    % For arXiv issues
+
+
+% -------------------------- COLORBLIND COLORS -------------------------------
+% Use color palettes for colorblind people from
+% https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40 or https://colorbrewer2.org/
+\usepackage{xcolor}
+\definecolor{wong-black}        {HTML}{000000}
+\definecolor{wong-lightorange}  {HTML}{E69F00}
+\definecolor{wong-lightblue}    {HTML}{56B4E9}
+\definecolor{wong-green}        {HTML}{009E73}
+\definecolor{wong-yellow}       {HTML}{F0E442}
+\definecolor{wong-darkblue}     {HTML}{0072B2}
+\definecolor{wong-darkorange}   {HTML}{D55E00}
+\definecolor{wong-pink}         {HTML}{CC79A7}
+
+% -------------------------- PACKAGES -------------------------------
 
 \usepackage{url}
 \def\UrlBreaks{\do\/\do-}   % Line breaks of long URLs in biblatex bibliography (https://tex.stackexchange.com/questions/134191/line-breaks-of-long-urls-in-biblatex-bibliography)
+
+\usepackage{hyperref} % Working hyperlink (https://www.overleaf.com/learn/latex/Hyperlinks)
+\hypersetup{
+    colorlinks=true,
+    citecolor=wong-green,
+    linkcolor=wong-darkblue,
+    filecolor=wong-pink,      
+    urlcolor=wong-black,
+    pdfpagemode=FullScreen,
+    }
+
+% Use these to always use Fig. and Sec. instead of worrying about Figure, Fig, Fig. etc in the document
+\newcommand{\figref}[1]{Fig.~\ref{#1}}
+\newcommand{\secref}[1]{Sec.~\ref{#1}}
 
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
 \usepackage{textcomp}
-\usepackage{xcolor}
+\usepackage[nolist, nohyperlinks, printonlyused]{acronym} % For consistent acronyms
+
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
+% -------------------------- TITLE -------------------------------
+
+
 \title{A good title is clear, concise and meaningful
 }
+
+% -------------------------- AUTHORS -------------------------------
+
 
 \author{\IEEEauthorblockN{Daniel Bogdoll\IEEEauthorrefmark{2}\IEEEauthorrefmark{3}\textsuperscript{\textasteriskcentered},
 Author Two\IEEEauthorrefmark{3}\textsuperscript{\textasteriskcentered},
 and J. Marius Zöllner\IEEEauthorrefmark{2}\IEEEauthorrefmark{3}}
 
 \IEEEauthorblockA{\IEEEauthorrefmark{2}FZI Research Center for Information Technology, Germany\\
-\{bogdoll, zoellner\}@fzi.de}
-\IEEEauthorblockA{\IEEEauthorrefmark{3}Karlsruhe Institute of Technology, Germany\\
-aa@kit.edu}}
+bogdoll@fzi.de}
+\IEEEauthorblockA{\IEEEauthorrefmark{3}Karlsruhe Institute of Technology, Germany\\}}
 
 \maketitle
 \begingroup\renewcommand\thefootnote{\textasteriskcentered}
 \footnotetext{These authors contributed equally}
 \endgroup
 
-\maketitle
+% -------------------------- ACRONYMS -------------------------------
+
+\begin{acronym}
+    \acro{ml}[ML]{Machine Learning}
+	\acro{cnn}[CNN]{Convolutional Neural Network}
+	\acro{dl}[DL]{Deep Learning}
+	\acro{ad}[AD]{Autonomous Driving}
+\end{acronym}
+
+% -------------------------- ABSTRACT -------------------------------
+
 
 \begin{abstract}
 \input{sections/0_abstract}
 \end{abstract}
 
+% -------------------------- KEYWORDS -------------------------------
+
 \begin{IEEEkeywords}
 component, formatting, style, styling, insert
 \end{IEEEkeywords}
+
+% -------------------------- CONTENT -------------------------------
 
 \input{sections/1_introduction}
 \input{sections/2_related work}
@@ -48,7 +98,8 @@ component, formatting, style, styling, insert
 \input{sections/5_conclusion}
 \input{sections/6_acknowledgment}
 
-%%% REFERENCES
+% -------------------------- REFERENCES -------------------------------
+
 {\small
 \bibliographystyle{IEEEtran}
 \bibliography{references}
