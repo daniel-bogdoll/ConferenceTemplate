@@ -8,6 +8,19 @@ This repository contains tips regarding scientific writing and a LaTeX template 
 - [LanguageTool](https://languagetool.org/de), which does integrate with Overleaf, to check your writing style. Activate  "Acribic Mode"
 - [Zotero](https://www.zotero.org/) for your literature management. Can be synced with Overleaf
 
+### Overleaf Import
+
+<details>
+  <summary markdown="span">Download the GitHub project as a ZIP file</summary>
+   <img width="100%" src="https://user-images.githubusercontent.com/19552411/152166487-1fab3898-379d-45fa-990e-623c1b0c4d11.png">
+</details>
+
+<details>
+  <summary markdown="span">Import the ZIP file in Overleaf as a new project</summary>
+   <img width="100%" src="https://user-images.githubusercontent.com/19552411/152167259-0efd69e1-ec87-4af6-a37d-0c33b44328ba.png">
+    <br/><br/>
+   <img width="100%" src="https://user-images.githubusercontent.com/19552411/152167387-cda2a714-b1c0-4908-bce9-6e73e49132e0.png">
+</details>
 
 ## Paper Style
 
