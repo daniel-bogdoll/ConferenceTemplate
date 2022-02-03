@@ -43,16 +43,21 @@
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+    
+\newcommand\nnfootnote[1]{  % Footnote without hyperref association (https://tex.stackexchange.com/questions/415625/avoiding-hyperref-warning-ignoring-empty-anchor)
+  \begin{NoHyper}
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \end{NoHyper}
+}
+
 \begin{document}
 
 % -------------------------- TITLE -------------------------------
 
-
-\title{A good title is clear, concise and meaningful
-}
+\title{A good title is clear, concise and meaningful}
 
 % -------------------------- AUTHORS -------------------------------
-
 
 \author{\IEEEauthorblockN{Daniel Bogdoll\IEEEauthorrefmark{2}\IEEEauthorrefmark{3}\textsuperscript{\textasteriskcentered},
 Author Two\IEEEauthorrefmark{3}\textsuperscript{\textasteriskcentered},
@@ -63,9 +68,8 @@ bogdoll@fzi.de}
 \IEEEauthorblockA{\IEEEauthorrefmark{3}Karlsruhe Institute of Technology, Germany\\}}
 
 \maketitle
-\begingroup\renewcommand\thefootnote{\textasteriskcentered}
-\footnotetext{These authors contributed equally}
-\endgroup
+
+\nnfootnote{\textasteriskcentered~These authors contributed equally}
 
 % -------------------------- ACRONYMS -------------------------------
 
