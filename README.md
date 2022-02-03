@@ -76,7 +76,8 @@ Use a color palette that is suited for colorblind people, such as the ones propo
 @article{choi_kaist_2018_its,
     author    = {Choi, Yukyung and Kim, Namil and Hwang, Soonmin and Park, Kibaek and Yoon, Jae Shin and An, Kyounghwan and Kweon, In So},
     title     = {{KAIST Multi-Spectral Day/Night Data Set for Autonomous and Assisted Driving}}, 
-    journal   = {IEEE Transactions on Intelligent Transportation Systems}, 
+    journal   = {Transactions on Intelligent Transportation Systems}, 
+    publisher = {IEEE},
     volume    = {19},
     number    = {3},
     year      = {2018}
