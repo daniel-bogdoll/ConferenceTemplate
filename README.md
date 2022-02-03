@@ -81,6 +81,16 @@ Use a color palette that is suited for colorblind people, such as the ones propo
 }
 ```
 
+#### Patent
+```
+@patent{Bogdoll_Augmenting_2017_US,
+  author    = {Bogdoll, Daniel and Paudel, Shreyasha and Koduri, Tejaswi},
+  title     = {{Augmenting Real Sensor Recordings With Simulated Sensor Data}},
+  number    = {US20190065933A1},
+  year      = {2017}
+}
+```
+
 #### Website
 ```
 @misc{Asam_Openscenario_2020_Web,
