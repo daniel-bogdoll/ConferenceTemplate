@@ -79,7 +79,6 @@ Use a color palette that is suited for colorblind people, such as the ones propo
     journal   = {Transactions on Intelligent Transportation Systems}, 
     publisher = {IEEE},
     volume    = {19},
-    number    = {3},
     year      = {2018}
 }
 ```
