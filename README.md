@@ -7,6 +7,7 @@ This repository contains tips regarding scientific writing and a LaTeX template 
 - [Overleaf](https://www.overleaf.com) to write your paper in LaTeX
 - [LanguageTool](https://languagetool.org/de), which does integrate with Overleaf, to check your writing style. Activate  "Acribic Mode"
 - [Zotero](https://www.zotero.org/) for your literature management. Can be synced with Overleaf
+- [Tables Generator](https://www.tablesgenerator.com/) for LaTeX tables
 
 ### Overleaf Import
 
