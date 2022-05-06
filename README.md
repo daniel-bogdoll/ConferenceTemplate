@@ -54,11 +54,11 @@ Use a color palette that is suited for colorblind people, such as the ones propo
 
 #### Conference proceedings
 ```
-@InProceedings{Weber_Automated_2020_IV,
-    author    = {Weber, Michael and F\"{u}rst, Michael and Z\"{o}llner, J. Marius},
-    title     = {{Automated Focal Loss for Image based Object Detection}},
-    booktitle = {IEEE Intelligent Vehicles Symposium (IV)},
-    year      = {2020}
+@inProceedings{Bogdoll_Addatasets_2022_VEHITS,
+    author    = {Bogdoll, Daniel and Schreyer, Felix and Z\"{o}llner, J. Marius},
+    title     = {{ad-datasets: a meta-collection of data sets for autonomous driving}},
+    journal   = {Proceedings of the 8th International Conference on Vehicle Technology and Intelligent Transport Systems},
+    year      = {2022}
 }
 ```
 
