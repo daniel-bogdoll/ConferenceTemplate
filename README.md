@@ -27,6 +27,13 @@ This repository contains tips regarding scientific writing and a LaTeX template 
 
 "**Get the gestalt right.** I remember being impressed with Fei-Fei (my adviser) once during a reviewing session. I had a stack of 4 papers I had reviewed over the last several hours and she picked them up, **flipped through each one for 10 seconds**, and said one of them was good and the other three bad. Indeed, I was accepting the one and rejecting the other three, but something that took me several hours took her seconds." - [Andrej Karpathy, Head of AI at Tesla](http://karpathy.github.io/2016/09/07/phd/)
 
+Key aspects:
+- Abstract, Introduction and pull-figure on page 1, making the "Related Work" headline the first line on page 2
+- ~1 page related work section with a good density of citations - not too sparse, but not too crowded
+- A well-designed pull figure on page 1, typically in the upper right corner
+- A well-designed system figure on page 3, spanning the whole page width
+- Exactly 8 pages (or the page limit) and not a single line less
+
 Use a color palette that is suited for colorblind people, such as the ones proposed by [David Nichols](https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40):
 ![image](https://user-images.githubusercontent.com/19552411/149807873-16d2adab-aa74-48c8-a75b-fb3ae1ebd702.png)
 
