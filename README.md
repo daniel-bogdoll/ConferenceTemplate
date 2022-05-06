@@ -77,8 +77,7 @@ Use a color palette that is suited for colorblind people, such as the ones propo
 @article{choi_kaist_2018_its,
     author    = {Choi, Yukyung and Kim, Namil and Hwang, Soonmin and Park, Kibaek and Yoon, Jae Shin and An, Kyounghwan and Kweon, In So},
     title     = {{KAIST Multi-Spectral Day/Night Data Set for Autonomous and Assisted Driving}}, 
-    journal   = {Transactions on Intelligent Transportation Systems}, 
-    publisher = {IEEE},
+    journal   = {IEEE Transactions on Intelligent Transportation Systems}, 
     volume    = {19},
     year      = {2018}
 }
@@ -89,7 +88,7 @@ Use a color palette that is suited for colorblind people, such as the ones propo
 @mastersthesis{Guneshka_Ontology_2022_BA,
     author    = {Stefani Guneshka},
     title     = {{Ontology-based corner case scenario simulation for autonomous driving}},
-    school    = {Karlsruhe Institute of Technology (KIT)},
+    school    = {{Karlsruhe Institute of Technology (KIT)}},
     year      = {2022},
     type      = {Bachelor's Thesis}
 }
