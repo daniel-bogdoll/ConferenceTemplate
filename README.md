@@ -93,7 +93,7 @@ Use a color palette that is suited for colorblind people, such as the ones propo
 #### Student Thesis
 ```
 @mastersthesis{Guneshka_Ontology_2022_BA,
-    author    = {Stefani Guneshka},
+    author    = {Guneshka, Stefani},
     title     = {{Ontology-based corner case scenario simulation for autonomous driving}},
     school    = {{Karlsruhe Institute of Technology (KIT)}},
     year      = {2022},
