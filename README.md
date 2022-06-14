@@ -135,9 +135,9 @@ Use a color palette that is suited for colorblind people, such as the ones propo
 #### Standards/Whitepapers/Reports
 ```
 @techreport{SAE_J3016_2021_Standard,
-    author={{On-Road Automated Driving (ORAD) committee}}
+    author={{On-Road Automated Driving Committee}}
     institution={{SAE International}},
-    number={J3016_202104},
+    number={J3016-202104},
     title={{Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles}},
     type={Standard},
     year={2021}
