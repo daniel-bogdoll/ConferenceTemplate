@@ -132,6 +132,29 @@ Use a color palette that is suited for colorblind people, such as the ones propo
 }
 ```
 
+#### Standards/Whitepapers/Reports
+```
+@techreport{SAE_J3016_2021_Standard,
+    author={{On-Road Automated Driving (ORAD) committee}}
+    institution={{SAE International}},
+    number={J3016_202104},
+    title={{Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles}},
+    type={Standard},
+    year={2021}
+}
+```
+
+```
+@techreport{IEEE_2846_2022_Standard,
+    author={{Intelligent Transportation Systems Committee}},
+    institution={{IEEE}},
+    number={2846-2022},
+    title={{Standard for Assumptions in Safety-Related Models for Automated Driving Systems}},
+    type={Standard},
+    year={2022}
+}
+```
+
 ## English for Germans
 
 ### Writing Style
