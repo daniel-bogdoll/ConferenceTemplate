@@ -135,7 +135,7 @@ Use a color palette that is suited for colorblind people, such as the ones propo
 #### Standards/Whitepapers/Reports
 ```
 @techreport{SAE_J3016_2021_Standard,
-    author={{On-Road Automated Driving Committee}}
+    author={{On-Road Automated Driving Committee}},
     institution={{SAE International}},
     number={J3016-202104},
     title={{Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles}},
@@ -179,8 +179,4 @@ A sentence should not be longer than **25 words**.
 | ----------- | ----------- | ----------- | 
 | Abstract | Past or Present | Present for general statements and facts
 | Introduction      | Present       | Research question: Past, Present or Future       |
-| State of the Art      | Past or Present       | If something is always true, then it should be written in present tense       |
-| Method      | Past       |        |
-| Evaluation      | Past or Present       | Specific results in Past, more general ones in Present       |
-| Conclusion      | Present or Future       | Future for Outlook       |
-
+| State of the Art      | Past or Present 
