@@ -17,10 +17,13 @@
 
 % -------------------------- PACKAGES -------------------------------
 
+\usepackage[accsupp]{axessibility}  % Improves PDF readability for those with disabilities.
+
 \usepackage{url}
 \def\UrlBreaks{\do\/\do-}   % Line breaks of long URLs in biblatex bibliography (https://tex.stackexchange.com/questions/134191/line-breaks-of-long-urls-in-biblatex-bibliography)
 
 \usepackage{hyperref} % Working hyperlink (https://www.overleaf.com/learn/latex/Hyperlinks)
+
 \hypersetup{
     colorlinks=true,
     citecolor=wong-green,
@@ -38,6 +41,7 @@
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
+\usepackage{booktabs}
 \usepackage{textcomp}
 \usepackage[nolist, nohyperlinks, printonlyused]{acronym} % For consistent acronyms
 
@@ -96,7 +100,7 @@ component, formatting, style, styling, insert
 % -------------------------- CONTENT -------------------------------
 
 \input{sections/1_introduction}
-\input{sections/2_related work}
+\input{sections/2_related_work}
 \input{sections/3_method}
 \input{sections/4_evaluation}
 \input{sections/5_conclusion}
