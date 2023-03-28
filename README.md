@@ -132,6 +132,18 @@ Use a color palette that is suited for colorblind people, such as the ones propo
 }
 ```
 
+#### Talk published online
+```
+@online{Anguelov_Machine_2022_INSAIT,
+    author = {Anguelov, Dragomir},
+    title = {Machine Learning for Autonomous Driving},
+    url = {https://www.youtube.com/watch?v=aEWyr3HAO7M},
+    organization = {INSAIT Conference},
+    year = {2022},
+    urldate = {2023-03-28}
+}
+```
+
 #### Standards/Whitepapers/Reports
 ```
 @techreport{SAE_J3016_2021_Standard,
