@@ -1,7 +1,14 @@
+%https://tex.stackexchange.com/questions/164017/limiting-the-number-of-authors-in-the-references-with-ieeetran
+@IEEEtranBSTCTL{IEEEexample:BSTcontrol,
+CTLuse_forced_etal       = "yes",
+CTLmax_names_forced_etal = "3",
+CTLnames_show_etal       = "2" }
+
 % Abbreviations for Workshops
 @string{ICCV-W      = "IEEE/CVF International Conference on Computer Vision (ICCV) Workshop"}
 @string{NEURIPS-W   = "Conference on Neural Information Processing Systems (NeurIPS) Workshop"}
 @string{CVPR-W      = "IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR) Workshop"}
+@string{ECCV-W      = "European Conference on Computer Vision (ECCV) Workshop"}
 
 % Abbreviations for Conferences
 @string{ISC2        = "IEEE International Smart Cities Conference (ISC2)"}
@@ -12,10 +19,19 @@
 @string{ICECCME     = "IEEE International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)"}
 @string{IV          = "IEEE Intelligent Vehicles Symposium (IV)"}
 @string{ICITE       = "International Conference on Intelligent Transportation Engineering (ICITE)"}
+@string{ITSC        = "IEEE International Conference on Intelligent Transportation Systems (ITSC)"}
+
 
 % List of own references
 
 % ------------------ 2022 ------------------ 
+
+@article{Bogdoll_Ontology_2022_ECCV,
+  author    = {Bogdoll, Daniel and Guneshka, Stefani and Z\"{o}llner, J. Marius},
+  title     = {{One Ontology to Rule Them All: Corner Case Scenarios for Autonomous Driving}}, 
+  journal   = {arXiv preprint:2209.00342},
+  year      = {2022}
+}
 
 @InProceedings{Bogdoll_DLCSS_2022_ICECCME,
   author    = {Bogdoll, Daniel and Rauch, Jonas and Z\"{o}llner, J. Marius},
